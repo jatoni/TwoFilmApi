@@ -10,6 +10,7 @@ import lombok.Setter;
 @AllArgsConstructor
 @NoArgsConstructor
 public class ContactoDto {
+	private Long id;
 	private String nombreContacto;
 	private String email;
 	private String telefono;
