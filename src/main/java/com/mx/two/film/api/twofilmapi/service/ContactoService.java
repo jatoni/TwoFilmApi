@@ -10,4 +10,6 @@ public interface ContactoService {
 	ContactoResponse getAllContactanos(int pageNo, int pageSize, String sortBy, String sortDir);
 
 	void updateContacto(ContactoDto contactoDto, Long id);
+	
+	ContactoDto getContacto(Long id);
 }

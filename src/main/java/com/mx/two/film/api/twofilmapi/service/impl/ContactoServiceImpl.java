@@ -73,4 +73,10 @@ public class ContactoServiceImpl implements ContactoService {
 		contactoRepository.save(contacto);
 	}
 
+	@Override
+	public ContactoDto getContacto(Long id) {
+		
+		return null;
+	}
+
 }
